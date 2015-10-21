@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  ChaiOneTest
 //
 //  Created by Rayen Kamta on 10/20/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MyTableViewController : UITableViewController
 
 
 @end
-

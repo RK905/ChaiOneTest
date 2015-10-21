@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2335A0C249CFF62864900A1A /* libPods-ChaiOneTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C02C62FDDD839156EB82CDC /* libPods-ChaiOneTest.a */; };
+		A30AA32A1BD7497F003AFF6C /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A30AA3291BD7497F003AFF6C /* MyCell.m */; settings = {ASSET_TAGS = (); }; };
 		A39D036C1BD6F00F00C0290B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D036B1BD6F00F00C0290B /* main.m */; };
 		A39D036F1BD6F00F00C0290B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D036E1BD6F00F00C0290B /* AppDelegate.m */; };
-		A39D03721BD6F00F00C0290B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D03711BD6F00F00C0290B /* ViewController.m */; };
 		A39D03751BD6F00F00C0290B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39D03731BD6F00F00C0290B /* Main.storyboard */; };
 		A39D03771BD6F00F00C0290B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39D03761BD6F00F00C0290B /* Assets.xcassets */; };
 		A39D037A1BD6F00F00C0290B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39D03781BD6F00F00C0290B /* LaunchScreen.storyboard */; };
+		A39D03831BD6F5FF00C0290B /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D03821BD6F5FF00C0290B /* MyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C02C62FDDD839156EB82CDC /* libPods-ChaiOneTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChaiOneTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EC32B8E521AA6DF32C987F /* Pods-ChaiOneTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiOneTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaiOneTest/Pods-ChaiOneTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A30AA3281BD7497F003AFF6C /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		A30AA3291BD7497F003AFF6C /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		A39D03671BD6F00F00C0290B /* ChaiOneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaiOneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39D036B1BD6F00F00C0290B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A39D036D1BD6F00F00C0290B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A39D036E1BD6F00F00C0290B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A39D03701BD6F00F00C0290B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A39D03711BD6F00F00C0290B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A39D03741BD6F00F00C0290B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A39D03761BD6F00F00C0290B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A39D03791BD6F00F00C0290B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39D037B1BD6F00F00C0290B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39D03811BD6F5FF00C0290B /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		A39D03821BD6F5FF00C0290B /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		EF29425CA3BD0348FC75F58C /* Pods-ChaiOneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaiOneTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaiOneTest/Pods-ChaiOneTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2335A0C249CFF62864900A1A /* libPods-ChaiOneTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518918A02F6D0097ADC2378E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90EC32B8E521AA6DF32C987F /* Pods-ChaiOneTest.debug.xcconfig */,
+				EF29425CA3BD0348FC75F58C /* Pods-ChaiOneTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A39D035E1BD6F00F00C0290B = {
 			isa = PBXGroup;
 			children = (
 				A39D03691BD6F00F00C0290B /* ChaiOneTest */,
 				A39D03681BD6F00F00C0290B /* Products */,
+				518918A02F6D0097ADC2378E /* Pods */,
+				ABA66AB37B0C982F55577126 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +79,15 @@
 			children = (
 				A39D036D1BD6F00F00C0290B /* AppDelegate.h */,
 				A39D036E1BD6F00F00C0290B /* AppDelegate.m */,
-				A39D03701BD6F00F00C0290B /* ViewController.h */,
-				A39D03711BD6F00F00C0290B /* ViewController.m */,
 				A39D03731BD6F00F00C0290B /* Main.storyboard */,
 				A39D03761BD6F00F00C0290B /* Assets.xcassets */,
 				A39D03781BD6F00F00C0290B /* LaunchScreen.storyboard */,
 				A39D037B1BD6F00F00C0290B /* Info.plist */,
 				A39D036A1BD6F00F00C0290B /* Supporting Files */,
+				A39D03811BD6F5FF00C0290B /* MyTableViewController.h */,
+				A39D03821BD6F5FF00C0290B /* MyTableViewController.m */,
+				A30AA3281BD7497F003AFF6C /* MyCell.h */,
+				A30AA3291BD7497F003AFF6C /* MyCell.m */,
 			);
 			path = ChaiOneTest;
 			sourceTree = "<group>";
@@ -79,6 +100,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABA66AB37B0C982F55577126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C02C62FDDD839156EB82CDC /* libPods-ChaiOneTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39D037E1BD6F00F00C0290B /* Build configuration list for PBXNativeTarget "ChaiOneTest" */;
 			buildPhases = (
+				F0764FD4DBECEA5B8257D3DC /* Check Pods Manifest.lock */,
 				A39D03631BD6F00F00C0290B /* Sources */,
 				A39D03641BD6F00F00C0290B /* Frameworks */,
 				A39D03651BD6F00F00C0290B /* Resources */,
+				BE08868581B16002E9CF2018 /* Embed Pods Frameworks */,
+				080651D13446879A48EF410A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +176,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		080651D13446879A48EF410A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaiOneTest/Pods-ChaiOneTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE08868581B16002E9CF2018 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaiOneTest/Pods-ChaiOneTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0764FD4DBECEA5B8257D3DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A39D03631BD6F00F00C0290B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39D03721BD6F00F00C0290B /* ViewController.m in Sources */,
 				A39D036F1BD6F00F00C0290B /* AppDelegate.m in Sources */,
+				A30AA32A1BD7497F003AFF6C /* MyCell.m in Sources */,
+				A39D03831BD6F5FF00C0290B /* MyTableViewController.m in Sources */,
 				A39D036C1BD6F00F00C0290B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +340,7 @@
 		};
 		A39D037F1BD6F00F00C0290B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EC32B8E521AA6DF32C987F /* Pods-ChaiOneTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChaiOneTest/Info.plist;
@@ -270,6 +352,7 @@
 		};
 		A39D03801BD6F00F00C0290B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF29425CA3BD0348FC75F58C /* Pods-ChaiOneTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChaiOneTest/Info.plist;
@@ -298,6 +381,7 @@
 				A39D03801BD6F00F00C0290B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
